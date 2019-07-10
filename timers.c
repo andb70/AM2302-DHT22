@@ -1,3 +1,13 @@
+/*
+ * released under GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
+ * 
+ *      Author:     Andrea Biasutti
+ *      Date:       July 5th 2019
+ *      Hardware:   PIC32MX440256H
+ * 
+ * source available here https://github.com/andb70/Timers.X
+ * 
+ */
 #include <p32xxxx.h> // Include PIC32 specifics header file
 #include <plib.h> // Include the PIC32 Peripheral Library
 #include "timers.h"

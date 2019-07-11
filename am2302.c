@@ -9,7 +9,7 @@
  * 
  */
 #include "am2302.h"
-#include "timers.h"
+#include "../timers1.X/timers.h"
 
 void initTemperatureHumidity(IoPortId port, unsigned int pin){
     PORTSetPinsDigitalOut(port, pin);// switch to output

@@ -6,7 +6,7 @@
                    projectFiles="true">
       <itemPath>am2302.h</itemPath>
       <itemPath>config.h</itemPath>
-      <itemPath>timers.h</itemPath>
+      <itemPath>../timers1.X/timers.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -16,8 +16,8 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>am2302.c</itemPath>
-      <itemPath>main.c</itemPath>
-      <itemPath>timers.c</itemPath>
+      <itemPath>../timers1.X/timers.c</itemPath>
+      <itemPath>main_am2302.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -27,6 +27,7 @@
   </logicalFolder>
   <sourceRootList>
     <Elem></Elem>
+    <Elem>../timers1.X</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

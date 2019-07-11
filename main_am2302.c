@@ -34,7 +34,7 @@
 #include <plib.h> // Include the PIC32 Peripheral Library
 #include <stdio.h>
 #include <stdlib.h>
-#include "timers.h"
+#include "../timers1.X/timers.h"
 #include "am2302.h"
 
 // HEARTBEAT led: toggle every seconds
